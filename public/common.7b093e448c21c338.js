@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkservicesRouteApp=self.webpackChunkservicesRouteApp||[]).push([[592],{6208:(l,a,_)=>{_.d(a,{m:()=>n});var o=_(6814),r=_(1896),u=_(5879);let n=(()=>{class e{}return e.\u0275fac=function(t){return new(t||e)},e.\u0275mod=u.oAB({type:e}),e.\u0275inj=u.cJS({imports:[o.ez,r.Bz]}),e})()}}]);
