@@ -41,13 +41,13 @@ const recoveryMail = async (req, res = response) => {
   const { email } = req.body;
   const user = await UserModel.findOne({ email });
   if (user !== null) {
-    if( process.env.PORT === 8080 ) {
+    if( process.env.PORT == 8080 ) {
       env = "http://localhost:4200";
     }
     else {
-      env = "https://node-services-rqrny.ondigitalocean.app";
+      env = "https://servicesappnode-production.up.railway.app";
     }
-      
+    console.log(env);
     const dataMail = {
       from: 'admin@hotmail.com',  // sender address
       to: email,   // list of receivers
